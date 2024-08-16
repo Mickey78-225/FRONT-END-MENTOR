@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Blog preview card</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/Mickey78-225" target="_blank">EHUI Michel-Ange</a>.
+    </div>
 
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <section>
+        <article>
+            <figure>
+                <img src="./assets/images/illustration-article.svg" alt="Drawers">
+            </figure>
+            <div class="content">
+                <p class="text-preset-3-bold">Learning</p>
+                <p class="text-preset-3">Published 21 Dec 2023</p>
+                <p class="text-preset-1">HTML & CSS foundations</p>
+                <p class="text-preset-2">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+            </div>
+            <div class="author">
+                <img src="./assets/images/image-avatar.webp" alt="Greg Hopper image">
+                <p class="text-preset-3-bold">Greg Hooper</p>
+            </div>
+        </article>
+    </section>
 </body>
 </html>
