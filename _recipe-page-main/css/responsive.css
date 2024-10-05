@@ -1,0 +1,41 @@
+@media screen and (max-width: 376px) {
+    body {
+        padding: 0;
+    }
+
+    section {
+        border-radius: 0;
+        padding: 20px;
+    }
+
+    img {
+        border-radius: 0;
+        scale: 1.2;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    article {
+        margin: 20px -20px;
+        border-radius: 0;
+    }
+
+    ul, ol {
+        padding-left: 20px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px 0;
+    }
+}
